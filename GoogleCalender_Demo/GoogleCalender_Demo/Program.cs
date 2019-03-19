@@ -125,7 +125,7 @@ namespace GoogleCalender_Demo
         /// <returns></returns>
         private static string GetCredentialsPath()
         {
-            string CredPath =  "./Credentials/" + "credentials.json";
+            string CredPath = "credentials.json";
             return CredPath;
         }
 
@@ -149,7 +149,7 @@ namespace GoogleCalender_Demo
 #region Step
 /* 1.
  * 到下列網址Enable Calendar API
- * 並下載Json檔案放置到Credentials資料夾內
+ * 並下載Json檔案放置到指定位置
  * https://developers.google.com/calendar/quickstart/dotnet 
  * 
  * 2.
